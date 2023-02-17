@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.user-card {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	height: 30rem;
+	width: 60%;
+	margin: auto;
+}
+
+.avatar {
+	height: auto;
+	width: 10rem;
+	border-radius: 90px;
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.user-card > ul > li {
+	background-color: darkturquoise;
+	border-radius: 5px;
+	width: max-content;
+	padding: 6px;
+	height: fit-content;
+}
+
+h3 > span {
+	color: darkturquoise;
+}
+h3,
+small {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
