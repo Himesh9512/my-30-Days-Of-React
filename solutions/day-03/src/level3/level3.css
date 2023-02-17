@@ -11,6 +11,9 @@
 	height: 30rem;
 	width: 60%;
 	margin: auto;
+	padding: 10px 30px;
+	background-color: white;
+	border-radius: 30px;
 }
 
 .avatar {

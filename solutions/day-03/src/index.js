@@ -9,6 +9,7 @@ const parent = (
 		<div>
 			<h1>Level 2</h1>
 			<Level2 />
+			<h1>Level 3</h1>
 			<Level3 />
 		</div>
 	</>
